@@ -20,7 +20,7 @@ for Linux users who cannot run X. It is particularly suitable for
 previewing PS files from dvips. It is small and fast.
 
 %description -l pl
-Przegl±darka BMV jest fontendem dla GhostScriptu. Korzystaj±c z niej
+Przegl±darka BMV jest frontendem dla GhostScriptu. Korzystaj±c z niej
 mo¿esz ogl±daæ pliki PostScript poprzez bibliotekê svgalib - bez X.
 Jest ma³a i szybka.
 
