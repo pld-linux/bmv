@@ -7,6 +7,7 @@ Vendor:		Jan Kybic <kybic@earn.cvut.cz>
 Group:		Applications/Publishing
 License:	GPL
 Source0:	ftp://sunsite.unc.edu/pub/Linux/apps/graphics/viewers/svga/%{name}-%{version}.tgz
+# Source0-md5:	40c881800edac6b1d2ce75ea8da6e6b4
 Patch0:		%{name}-glibc.patch
 BuildRequires:	svgalib-devel
 Requires:	ghostscript
