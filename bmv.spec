@@ -11,7 +11,6 @@ Source0:	ftp://sunsite.unc.edu/pub/Linux/apps/graphics/viewers/svga/%{name}-%{ve
 Patch0:		%{name}-glibc.patch
 BuildRequires:	svgalib-devel
 Requires:	ghostscript
-ExclusiveArch:	%{ix86} alpha
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -37,6 +36,7 @@ Jest ma³a i szybka.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 install bmv $RPM_BUILD_ROOT%{_bindir}
 
 %clean
