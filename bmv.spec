@@ -5,8 +5,6 @@ Version:	1.2
 Release:	2
 Vendor:		Jan Kybic <kybic@earn.cvut.cz>
 Group:		Applications/Publishing
-Group(de):	Applikationen/Publizieren
-Group(pl):	Aplikacje/Publikowanie
 License:	GPL
 Source0:	ftp://sunsite.unc.edu/pub/Linux/apps/graphics/viewers/svga/%{name}-%{version}.tgz
 Patch0:		%{name}-glibc.patch
