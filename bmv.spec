@@ -14,9 +14,9 @@ ExclusiveArch:	%{ix86} alpha
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-BMV is a front end for GhostScript. Using BMV you can now preview your
-PostScript files comfortably. It uses SVGAlib and it is intended for
-Linux users who cannot run X. It is particulary suitable for
+BMV is a front end for GhostScript. Using BMV you can now preview
+your PostScript files comfortably. It uses SVGAlib and it is intended
+for Linux users who cannot run X. It is particularly suitable for
 previewing PS files from dvips. It is small and fast.
 
 %description -l pl
