@@ -1,0 +1,11 @@
+diff -urN bmv-1.2-orig/bmv.h bmv-1.2/bmv.h
+--- bmv-1.2-orig/bmv.h	Wed Jul  8 19:24:45 1998
++++ bmv-1.2/bmv.h	Wed Jul  8 19:30:05 1998
+@@ -309,4 +309,7 @@
+ #define	SIGDONE		SIGUSR2
+ #endif
+ 
++/* for RH5.1 (glibc) */
++#include <errno.h>
++
+ /* ************** end of bmv.h ***************** */
