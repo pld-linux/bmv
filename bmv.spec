@@ -8,9 +8,10 @@ Group:		Applications/Publishing
 License:	GPL
 Source0:	ftp://sunsite.unc.edu/pub/Linux/apps/graphics/viewers/svga/%{name}-%{version}.tgz
 Patch0:		%{name}-glibc.patch
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildRequires:	svgalib-devel
 Requires:	ghostscript
+ExclusiveArch:	%{ix86} alpha
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 BMV is a front end for GhostScript. Using BMV you can now preview your
@@ -36,12 +37,11 @@ Jest ma³a i szybka.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 install bmv $RPM_BUILD_ROOT%{_bindir}
-gzip -9nf bmv.{CHANGES,README}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc bmv.{CHANGES,README}
 %attr(755,root,root) %{_bindir}/bmv
