@@ -20,14 +20,19 @@ PostScript files comfortably. It uses SVGAlib and it is intended for
 Linux users who cannot run X. It is particulary suitable for
 previewing PS files from dvips. It is small and fast.
 
+%description -l pl
+Przegl±darka BMV jest fontendem dla GhostScriptu. Korzystaj±c z niej
+mo¿esz ogl±daæ pliki PostScript poprzez bibliotekê svgalib - bez X.
+Jest ma³a i szybka.
+
 %prep
 %setup -q
 %patch -p1
 
 %build
 %{__make} \
-	CC="cc -DCOLOUR" \
-	CFLAGS="%{?debug:-O0 -g}%{!?debug:$RPM_OPT_FLAGS -fomit-frame-pointer}"
+	CC="%{__cc} -DCOLOUR" \
+	CFLAGS="%{rpmcflags} %{!?debug:-fomit-frame-pointer}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
