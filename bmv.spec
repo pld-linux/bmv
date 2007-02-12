@@ -1,5 +1,5 @@
 Summary:	Simple viewer of images (pbm-raw) and front end for GhostScript based on SVGAlib
-Summary(pl):	Prosta przegl±darka plików graficznych (pbm-raw) oraz frontend do GhostScriptu bazuj±cy na SVGAlib
+Summary(pl.UTF-8):   Prosta przeglÄ…darka plikÃ³w graficznych (pbm-raw) oraz frontend do GhostScriptu bazujÄ…cy na SVGAlib
 Name:		bmv
 Version:	1.2
 Release:	3
@@ -19,10 +19,10 @@ your PostScript files comfortably. It uses SVGAlib and it is intended
 for Linux users who cannot run X. It is particularly suitable for
 previewing PS files from dvips. It is small and fast.
 
-%description -l pl
-Przegl±darka BMV jest frontendem dla GhostScriptu. Korzystaj±c z niej
-mo¿esz ogl±daæ pliki PostScript poprzez bibliotekê svgalib - bez X.
-Jest ma³a i szybka.
+%description -l pl.UTF-8
+PrzeglÄ…darka BMV jest frontendem dla GhostScriptu. KorzystajÄ…c z niej
+moÅ¼esz oglÄ…daÄ‡ pliki PostScript poprzez bibliotekÄ™ svgalib - bez X.
+Jest maÅ‚a i szybka.
 
 %prep
 %setup -q
