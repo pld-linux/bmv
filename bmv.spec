@@ -1,5 +1,5 @@
 Summary:	Simple viewer of images (pbm-raw) and front end for GhostScript based on SVGAlib
-Summary(pl.UTF-8):   Prosta przeglądarka plików graficznych (pbm-raw) oraz frontend do GhostScriptu bazujący na SVGAlib
+Summary(pl.UTF-8):	Prosta przeglądarka plików graficznych (pbm-raw) oraz frontend do GhostScriptu bazujący na SVGAlib
 Name:		bmv
 Version:	1.2
 Release:	3
